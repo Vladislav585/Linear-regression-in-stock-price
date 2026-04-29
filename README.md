@@ -28,18 +28,17 @@ This project implements a modular software system for analyzing and forecasting 
 git clone https://github.com/yourusername/vtb-stock-prediction.git
 pip install tensorflow pandas numpy scikit-learn matplotlib requests
 python main.py
-
+```bash
 
 --------------------------------------------------------------------------------------------------------
 Система прогнозирования стоимости акций (VTBR)
 
-## Описание:
+## Описание
 Данный проект представляет собой модульную программную систему для анализа и
 прогнозирования курсовой стоимости акций ПАО ВТБ (тикер: VTBR) с
 использованием алгоритмов глубокого обучения.
 
-Ключевые особенности
-
+## Ключевые особенности:
   - Автоматическая загрузка данных: Прямая интеграция с API Московской Биржи
     (MOEX ISS API).
   - Интеллектуальная предобработка: Встроенная логика корректировки консолидации
@@ -53,8 +52,7 @@ python main.py
   - Прогнозирование тренда: Рекурсивный метод для генерации плавного прогноза
     цены на 22 торговых дня.
 
-Технологии
-
+## Технологии:
   - Python 3.10+
   - TensorFlow / Keras
   - Pandas / NumPy
@@ -62,15 +60,15 @@ python main.py
   - Matplotlib
   - Requests
 
-Структура проекта
-
+## Структура проекта:
   - main.py: Точка входа для запуска полного цикла обработки и прогноза.
   - Loading_and_Processing.py: Модуль для взаимодействия с API и очистки данных.
   - Neuron_network.py: Описание архитектуры нейросети и функции прогнозирования.
 
-Установка и запуск
-
+## Установка и запуск:
+```bash
 git clone https://github.com/yourusername/vtb-stock-prediction.git
 pip install tensorflow pandas numpy scikit-learn matplotlib requests
 python main.py
+```bash
 
